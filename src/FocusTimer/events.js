@@ -21,8 +21,8 @@ export function registerModes(){
         if(typeof modes[mode] != 'function'){
             return
         }
-
         modes[mode]()
+        console.log(state)
     })
 }
 

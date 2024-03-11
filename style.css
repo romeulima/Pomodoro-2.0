@@ -10,30 +10,30 @@
     --secondary-color: #9D9D9D;
 }
 
-.rain{
+.Rain{
     --primary-color: #02799D;
     --text-color: #ffffff
 }
 
-.tree{
+.Tree{
     --primary-color: #029D5C;
     --text-color: #ffffff;
 }
 
-.coffe{
+.Coffee{
     --primary-color: #9D5F02;
     --text-color: #ffffff;
 }
 
-.fire{
+.Fire{
     --primary-color: #FF9900;
     --text-color: #ffffff;
 }
 
-html.rain #modes .ph-cloud-rain,
-html.tree #modes .ph-tree-evergreen,
-html.fire #modes .ph-fire,
-html.coffe #modes .ph-storefront{
+html.Rain #modes .ph-cloud-rain,
+html.Tree #modes .ph-tree-evergreen,
+html.Fire #modes .ph-fire,
+html.Coffee #modes .ph-storefront{
     background-color: var(--primary-color);
     color: var(--text-color);
 }

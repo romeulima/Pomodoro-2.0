@@ -4,6 +4,6 @@ export default {
     seconds: 0,
     isTree: false,
     isRain: false,
-    isCoffe: false,
+    isCoffee: false,
     isFire: false
 }
