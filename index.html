@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cronômetro estilo pomodoro.">
+
+    <script type="module" src="./src/main.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro - Timer</title>
+</head>
+<body>
+    <main>
+        <section id="timer">
+            <section id="temporizador" class="flex">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </section>
+            <section id="controls" class="flex">
+                <button data-action="toggleRunning" class="ph ph-play-circle"></button>
+                <button data-action="toggleRunning" class="ph ph-pause-circle"></button>
+                <button data-action="reset" class="ph ph-stop-circle"></button>
+                <button data-action="plus" class="ph ph-plus-circle"></button>
+                <button data-action="minus" class="ph ph-minus-circle"></button>
+            </section>
+        </section>
+        <section id="modes">
+             <button data-action="tree" class="ph ph-tree-evergreen"></button>
+             <button data-action="rain" class="ph ph-cloud-rain"></button>
+             <button data-action="coffe" class="ph ph-storefront"></button>
+             <button data-action="fire" class="ph ph-fire"></button>
+        </section>
+    </main>
+
+</body>
+</html>
