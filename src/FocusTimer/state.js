@@ -5,5 +5,6 @@ export default {
     isTree: false,
     isRain: false,
     isCoffee: false,
-    isFire: false
+    isFire: false,
+    countdownId: null
 }

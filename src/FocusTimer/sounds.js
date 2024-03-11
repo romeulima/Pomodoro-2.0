@@ -1,7 +1,15 @@
-export const florestaAudio = new Audio('../assets/Floresta.wav')
+export const TreeAudio = new Audio('../assets/Floresta.wav')
+TreeAudio.loop
 
-export const chuvaAudio = new Audio('../assets/Chuva.wav')
+export const RainAudio = new Audio('../assets/Chuva.wav')
+RainAudio.loop
 
-export const cafeteriaAudio = new Audio('../assets/Cafeteria.wav')
+export const CoffeeAudio = new Audio('../assets/Cafeteria.wav')
+CoffeeAudio.loop
 
-export const lareiraAudio = new Audio('../assets/Lareira.wav')
+export const FireAudio = new Audio('../assets/Lareira.wav')
+FireAudio.loop
+
+export const buttonPressAudio = new Audio('../assets/button-press.wav')
+
+export const kichenTimer = new Audio('../assets/kichen-timer.mp3')
