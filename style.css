@@ -71,7 +71,7 @@ main{
 }
 
 #temporizador{
-    font-size: 7.886rem;
+    font-size: clamp(5rem, 4rem + 4vw, 7.886rem);
     line-height: 9.25rem;
     font-weight: bold;
 }
@@ -105,4 +105,36 @@ main{
 
 button{
     cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    main{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+
+    #timer{
+        gap: 0;
+    }
+    
+    #temporizador{
+        line-height: 7.063rem;
+    }
+
+    #controls{
+        gap: 1.5rem;
+    }
+
+    #modes{
+        margin-top: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.125rem;
+    }
+
+    #modes button{
+        width: 4rem;
+        height: 4rem;
+
+        font-size: 1.5rem;
+    }
 }
